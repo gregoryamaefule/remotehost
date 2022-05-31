@@ -1,0 +1,192 @@
+
+        @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100&family=Poiret+One&family=Poppins:wght@100;300;400;500&family=Russo+One&display=swap');
+        *{
+            padding: 0px;
+            margin: 0px;
+            font-family: 'Poppins', sans-serif;
+        }
+        body{
+            overflow-x: hidden;
+        }
+        .sec{
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+            grid-gap: 1.5rem;
+            padding-bottom: 50px;
+
+        }
+        .container>img{
+            width: 100%;
+            height: 75%;
+        }
+        .container{
+            height: 300px;
+            border: 0.7px solid #ccc;
+            box-shadow: 0.4px 0.4px 0.4px 0.2px #ccc;
+            border-radius: 3px;
+            
+        }
+        .para{
+            padding: 1rem;
+        }
+        .para>h1{
+            padding-bottom: 1rem;
+        }
+        nav{
+            display: flex;
+            justify-content: space-between;
+            height: 30px;
+            padding: 7px 20px 7px 20px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 100;
+            background-color: white;
+
+        }
+        #rightnav>a{
+            text-decoration: none;
+            color: #555;
+            font-weight: 400;
+            padding-right: 6px;
+        }
+        #headername{
+            padding-left: 3px;
+            font-size: 0.93em;
+            color: #555;
+            font-weight: 600;
+        }
+        #followlink{
+            background-color: mediumslateblue;
+            color: white;
+            padding: 3px 10px;
+            border-radius: 2px;
+        }
+        main{
+            padding: 0 25%;
+        }
+        .headerImg>img{
+            width: 105vw;
+            height: 200px;
+        }
+        .about{
+            position: relative;
+            top: -50px;
+        }
+        .about>h1{
+            padding: 30px 0;
+        }
+        .about>h2{
+            color: mediumslateblue;
+            padding-bottom: 20px;
+        }
+        .about>h3{
+            padding-bottom: 10px;
+        }
+        .galleryHeader{
+            border-bottom: 0.001px solid #ddd;
+        }
+        .galleryHeader>span{
+            border-bottom: 2px solid #444;
+        }
+        .gallery>h4{
+            padding: 13px 0;
+        }
+        .sec>a{
+            text-decoration: none;
+            font-size: 0.7em;
+            color: black;
+        }
+        .para>h3>i{
+            padding-right: 3px;
+        }
+        .green{
+            color: rgb(4, 67, 43);
+            background-color: rgb(133, 223, 196);
+            padding: 0.1px 5px;
+            border-radius: 2px;
+            font-size: 0.75em;
+        }
+        .other{
+            background-color: rgb(242, 209, 139);
+            color: rgb(44, 35, 3);
+            padding: 0.1px 5px;
+            border-radius: 2px;
+            font-size: 0.75em;
+        }
+        .xpContainer{
+            display: flex;
+            width: 100%;
+            margin: 8px 0;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+            max-height: 100px;
+            overflow: hidden;
+        }
+        .xpContainer>img{
+            width: 100%;
+            flex-basis: 30%;
+            overflow: hidden;
+        }
+        .xpContainer>section{
+            flex-basis: 70%;
+            padding: 10px;
+
+        }
+        .experienceContainer>a{
+            text-decoration: none;
+            font-size: 0.8em;
+            color: #999;
+            font-weight: 300;
+        }
+        .xpContainer>section>h5{
+            color: #555;
+            font-weight: 500;
+            font-size: 0.9em;
+        }
+        .workExperience>p{
+            color: black;
+            font-weight: 500;
+        }
+        .workExperience>a{
+            color: mediumslateblue;
+            font-weight: 400;
+        }
+        @media (max-width: 1100px){
+            main{
+                padding: 20%;
+            }
+        }
+        @media (max-width: 950px){
+            main{
+                padding: 16%;
+            }
+        }
+        @media (max-width: 750px){
+            main{
+                padding: 10%;
+            }
+        }
+        @media (max-width: 620px){
+            main{
+                padding: 5%;
+            }
+        }
+        @media (max-width: 320px){
+            main{
+                padding: 5%;
+            }
+            #navConnect{
+                display: none;
+            }
+            #followlink{
+                display: none;
+            }
+            .xpContainer>img{
+                display: none;
+            }
+            .xpContainer>section>p{
+                font-size: 0.8em;
+            }
+        }

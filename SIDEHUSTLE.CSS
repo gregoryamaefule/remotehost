@@ -1,0 +1,40 @@
+.ERROR{
+    display: NONE;
+    color: RED;
+}
+
+.ERR0R.ACTIVE{
+    display: block;
+}
+
+ input[type="submit"] {
+    padding: 10PX 20PX;
+    border: none;
+    border-radius: 5px;
+    background-color:black;
+    color: whitesmoke;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+input[type="submit"]:hover{
+    background-color: red;
+}
+body{
+    background-color: grey;
+    font-size: 16px;
+    font-style: oblique;
+}
+.input{
+    padding: 10px;
+    border: 2px solid;
+    border-radius: 5px;
+    font-size: 20;
+}
+
+
+input[type="radio"]:checked + .radio{
+    background-color: aliceblue;
+    border-color: red;
+}
+ 

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FILL YOUR BIODATA</title>
+    <LINK REL="STYLESHEET" TYPE="TEXT/CSS" HREF="SIDEHUSTLE.CSS">
+     <SCRIPT SRC="SIDEBHUSTLE.JAVAS.js"></SCRIPT>
+</head>
+<body>
+<form id="my-form">
+    <label for="FULL NAME">FULL NAME:</label>
+    <INPUT TYPE="TEXT" class="input" ID="FULL NAME" placeholder=" ENTER FULL NAME"required><BR>
+    
+     <SPAN CLASS= "ERROR" ID="EMAIL-ERROR">PLEASE ENTER A VALID EMAIL ADRESS</SPAN><BR>
+     <LABEL>E-MAIL:</LABEL>
+     <INPUT TYPE ="email" class="input" ID="EMAIL" placeholder="ENTER EMAIL ADDRESS" required><BR><BR>
+    
+     <LABEL>PHONE NUMBER:</LABEL> 
+     <INPUT TYPE ="TEXT" class="input" ID="PHONE NUMBER" placeholder="ENTER PHONE NUMBER"required > <BR><BR>
+    
+
+        <LABEL>GENDER</LABEL>
+        <INPUT TYPE="RADIO" ID="FEMALE" NAME="GENDER" required><LABEL>FEMALE</LABEL>
+            <span class="radio"></span>
+         <INPUT TYPE="RADIO"  ID="MALE" NAME="GENDER"><LABEL>MALE</LABEL>
+            <span class="radio"></span> <BR><BR>
+ 
+
+            <LABEL>PASSWORD:</LABEL>
+            <INPUT TYPE="TEXT" class="input" ID="PASSWORD" placeholder=" ENTER PASSWORD" required> <BR><BR> 
+
+                <INPUT TYPE="SUBMIT" VALUE="SUBMIT" id="submit">
+                    
+   
+
+
+
+        
+        
+</form>
+</body>
+<script>
+    const buttn = document.querySelector('#submit')
+    buttn.addEventListener('click', submit)
+    function submit() {
+        // document.getElementById("submit").innerHTML ="submission sucessful"
+        
+event.preventDefault();
+// var successMessage = document.getElementById("success-message");
+// successMessage.style.display = "block";
+prompt('success')
+    }
+</script> 
+</html>
